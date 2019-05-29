@@ -31,6 +31,7 @@ class Converter:
             raise Exception('No JSON in convert response')
 
         data = response.json()
+        
         if 'quotes' in data:
             key = f"{currency_from}{currency_to}".upper()
             if key in data['quotes']:
