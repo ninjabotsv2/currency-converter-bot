@@ -72,6 +72,8 @@ def _send_support_message(bot, update):
             f"[User](tg://user?id={update.message.from_user.id}) send a message:\n\n{text}",
             parse_mode='markdown'
         )
+
+        update.message.reply_text('Thank you for your message. Wait for an answer.')
     except Exception as e:
         return SUPPORT
 
