@@ -16,7 +16,7 @@ def handle_text(bot, update):
 
     data = text.rsplit(separator, 1)
     currency_from, currency_to = data
-    amount = 1
+    amount = 2
 
     if len(data[0].split(' ')) > 1:
         data_splitted = data[0].split(' ')
