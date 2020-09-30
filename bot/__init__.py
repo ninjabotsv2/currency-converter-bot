@@ -6,7 +6,7 @@ from bot.handlers.commands import handle_start, handle_help, get_support_handler
 from bot.handlers.errors import handle_error
 from bot.handlers.text import handle_text
 
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('1241164429:AAHxVZyysrHM8L9sE1p4-svlabRPxod38zA')
 
 
 def set_handlers(updater):
