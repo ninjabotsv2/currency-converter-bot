@@ -10,7 +10,7 @@ class Converter:
     def convert(self, currency_from, currency_to, amount=1):
         rate = self._send_convert_request(currency_from, currency_to)
 
-        result = rate  amount
+        result = rate*amount
         return result
 
     def _send_convert_request(self, currency_from, currency_to):
