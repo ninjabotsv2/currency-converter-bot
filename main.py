@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 if __name__ == '__main__':
     # create an updater and get the dispatcher
-    updater = Updater(1241164429:AAHxVZyysrHM8L9sE1p4-svlabRPxod38zA)
+    updater = Updater("1241164429:AAHxVZyysrHM8L9sE1p4-svlabRPxod38zA")
     dp = set_handlers(updater)
 
     # local running
