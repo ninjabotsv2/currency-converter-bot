@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 if __name__ == '__main__':
     # create an updater and get the dispatcher
-    updater = Updater(TOKEN)
+    updater = Updater(1241164429:AAHxVZyysrHM8L9sE1p4-svlabRPxod38zA)
     dp = set_handlers(updater)
 
     # local running
@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
         updater.start_webhook(listen="0.0.0.0",
                               port=port,
-                              url_path=TOKEN)
+                              url_path=1241164429:AAHxVZyysrHM8L9sE1p4-svlabRPxod38zA)
         updater.bot.set_webhook("https://{0}/{1}".format(appname, TOKEN))
 
     updater.idle()
